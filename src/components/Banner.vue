@@ -32,7 +32,7 @@ export default{
 @media (max-width: 768px) {
     #main-banner{
         height: 300px;
-        width: 600px;
+        width: 100%;
         background-position: 0;
     }
     #main-banner h1{

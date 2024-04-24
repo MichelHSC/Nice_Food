@@ -26,6 +26,7 @@ export default{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 100%;
 }
 #nav #logo_url{
     margin: auto;
