@@ -3,8 +3,8 @@
         <router-link to="/" id="logo_url">
             <img :src="logo" :alt="alt" id="logo">
         </router-link>
-        <router-link to="/">Home</router-link>
-        <router-link to="/pedidos">Pedidos</router-link>
+        <router-link to="/" id="txt-nav">Home</router-link>
+        <router-link to="/pedidos" id="txt-nav">Pedidos</router-link>
     </div>
 </template>
 <script>
@@ -20,8 +20,8 @@ export default{
 
 <style scoped>
 #nav{
-    background-color: #222;
-    border-bottom: 4px solid #111;
+    background-color: #000;
+    border-bottom: 4px solid #11FF00;
     padding: 15px 50px;
     display: flex;
     justify-content: flex-end;
@@ -39,7 +39,7 @@ export default{
 }
 
 #nav a {
-    color: #FCBA03;
+    color: #11FF00;
     text-decoration: none;
     margin: 12px;
     transition: .5s;
@@ -47,6 +47,10 @@ export default{
 
 #nav a:hover{
     color: #FFF;
+}
+#txt-nav{
+    font-weight: Bold;
+    font-size: 18px;
 }
 
 </style>
