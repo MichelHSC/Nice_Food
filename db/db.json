@@ -69,45 +69,19 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "burgers": [
-    {
-      "id": "d518",
-      "nome": "michel",
-      "carne": "Alcatra",
-      "pao": "michel",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "98c9",
-      "nome": "michel",
-      "carne": "Picanha",
-      "pao": "michel",
-      "opcionais": [
-        "Bacon",
-        "Tomate",
-        "Cheddar",
-        "Pepino",
-        "Cebola roxa",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    }
+  
   ]
 }
