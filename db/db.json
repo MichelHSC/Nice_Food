@@ -16,6 +16,10 @@
       {
         "id": 4,
         "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Frances"
       }
     ],
     "carnes": [
@@ -77,5 +81,33 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "id": "d518",
+      "nome": "michel",
+      "carne": "Alcatra",
+      "pao": "michel",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Salame"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "98c9",
+      "nome": "michel",
+      "carne": "Picanha",
+      "pao": "michel",
+      "opcionais": [
+        "Bacon",
+        "Tomate",
+        "Cheddar",
+        "Pepino",
+        "Cebola roxa",
+        "Salame"
+      ],
+      "status": "Solicitado"
+    }
+  ]
 }

@@ -28,7 +28,7 @@ export default{
 }
 .main-container{
   margin: 50px;
-  min-height: 250px;
+  min-height: 540px;
 }
 h1{
   text-align: center;
