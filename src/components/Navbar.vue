@@ -1,16 +1,26 @@
 <template>
     <div id="nav">
-        <router-link to="/" id="logo_url">
+        <router-link to="/" id="logo_url" @click="logar">
             <img :src="logo" :alt="alt" id="logo">
         </router-link>
         <router-link to="/" id="txt-nav">Home</router-link>
-        <router-link to="/pedidos" id="txt-nav">Pedidos</router-link>
+        <router-link v-show="logOn" to="/pedidos" id="txt-nav">Pedidos</router-link>
     </div>
 </template>
 <script>
 export default{
     name: "Navbar",
-    props:['logo','alt']
+    props:['logo','alt'],
+    data(){
+        return{
+            logOn: false
+        }
+    },
+    methods:{
+        logar(){
+            this.logOn = !this.logOn
+        }
+    }
 
 }
 </script>

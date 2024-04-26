@@ -64,6 +64,30 @@
       {
         "id": 4,
         "tipo": "Pepino"
+      },
+      {
+        "id": 5,
+        "tipo": "Queijo Prato"
+      },
+      {
+        "id": 6,
+        "tipo": "Ovo"
+      },
+      {
+        "id": 7,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 8,
+        "tipo": "Oregano"
+      },
+      {
+        "id": 9,
+        "tipo": "Ketchup"
+      },
+      {
+        "id": 10,
+        "tipo": "Maionese"
       }
     ]
   },
@@ -82,6 +106,53 @@
     }
   ],
   "burgers": [
-  
+    {
+      "id": "1",
+      "nome": "Michel Henrique",
+      "carne": "Alcatra",
+      "pao": "Michel Henrique",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "2",
+      "nome": "Anne G",
+      "carne": "Alcatra",
+      "pao": "Anne G",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "3",
+      "nome": "Michel Henrique",
+      "carne": "Picanha",
+      "pao": "Michel Henrique",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Queijo Prato",
+        "Mussarela",
+        "Ketchup",
+        "Maionese",
+        "Oregano",
+        "Ovo",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Finalizado"
+    }
   ]
 }
